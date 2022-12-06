@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  align-content: justify;
 }
 body{
 	background-image: url("../images/Castle.jpg");
@@ -16,6 +17,7 @@ body{
 	top: 20px;
 	display: block;
 	background-color : seagreen;
+	font-family: cursive;
 }
 #div4{
 	position: relative;
@@ -27,7 +29,7 @@ body{
 #div5{
 	position: fixed;
 	top: 300px;
-	left: 0px;
+	left: 10px;
 }
 #div6{
 	position: relative;
@@ -38,7 +40,7 @@ body{
 	top: 50px;
 	padding-right: 0px;
 }
-#div1,#div2,#div3,#div4{
+#div1,#div2,#div3,#div4,#div5,#div6{
 	bordered : dashed ;
 }
 p.disp1{
@@ -140,9 +142,15 @@ footer{
 	font-style: italic;
 	font-weight: bold;
 	text-align: center;
-	font-size: 200%;
+	font-size: 150%;
 }
 body{
   margin-bottom: 120px;
+}
+video{
+	position: absolute;
+	bottom : 0px;
+	right : 0px;	
+	margin-right: 10px;
 }
 
