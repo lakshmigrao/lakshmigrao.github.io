@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
   align-content: justify;
-}
+ } 
 body{
 	background-image: url("../images/Castle.jpg");
 }
@@ -28,7 +28,7 @@ body{
 }
 #div5{
 	position: fixed;
-	top: 300px;
+	top: 310px;
 	left: 10px;
 }
 #div6{
@@ -85,8 +85,8 @@ span{
 	background-color: orange;
 }
 #german_page{
-	color:red;
-	background-color:black;
+	color:indianred;
+	background-color: lightseagreen;
 	font-style:italic;
 	font-weight: bold;
 	font-size: 200%;
@@ -153,4 +153,3 @@ video{
 	right : 0px;	
 	margin-right: 10px;
 }
-
